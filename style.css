@@ -12,12 +12,16 @@ body {
   background-color: hsl(212, 45%, 89%);
   width: 100vw;
   height: 100vh;
-  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
   border: solid;
   background-color: hsl(0, 0%, 100%);
-  width: 100px;
-  height: 200px;
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
 }
